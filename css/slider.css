@@ -209,3 +209,41 @@
     font-size: 16px;
   }
 }
+@media (max-width: 1024px) {
+  .card1 {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .card1 {
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card1-grid1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card1 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}@media (max-width: 768px) {
+  .slider-btn.next {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .slider-btn.prev {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .slider-btn {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+}
