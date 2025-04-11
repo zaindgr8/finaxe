@@ -134,6 +134,12 @@ body {
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .challenge-section ul {
+    padding-left: 2rem;  /* Reduced padding for mobile screens */
+  }
+}
+
 .challenge-section li {
   font-size: 17px;
   color: #fff;
