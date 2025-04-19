@@ -34,7 +34,7 @@
     <!-- Preloader End -->
 
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div style="display: flex; gap: 12rem; margin-left: 11rem">
+      <div class="container">
         <a href="index.html" class="navbar-brand"> </a>
         <button
           type="button"
@@ -53,14 +53,14 @@
         >
           <ul class="nav navbar-nav main-navigation">
             <li class="nav-item active">
-              <a href="#home" class="nav-link scroll">Home</a>
+              <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link scroll">Our Job</a>
+              <a href="index.html#about" class="nav-link">Our Job</a>
             </li>
 
             <li class="nav-item has-dropdown">
-              <a href="#industries" class="nav-link">Industries</a>
+              <a href="index.html#industries" class="nav-link">Industries</a>
               <ul class="dropdown">
                 <!-- 1. Construction -->
                 <li class="has-submenu">
@@ -82,10 +82,11 @@
                   <a href="energy-water.html">Energy and Water</a>
                 </li>
 
-                <!-- 5. FMCG and Food (if needed) -->
-
+                <!-- 5. Investment Banking and Financial Services -->
                 <li class="has-submenu">
-                  <a href="FMCG-Food.html">FMCG and Food</a>
+                  <a href="investment-Banking-Services.html"
+                    >Investment Banking and Financial Services</a
+                  >
                 </li>
                 <!-- 6. Gaming and Entertainment -->
                 <li class="has-submenu">
@@ -134,13 +135,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="#solutions" class="nav-link">Solutions</a>
+              <a href="index.html#solutions" class="nav-link">Solutions</a>
             </li>
             <li class="nav-item">
-              <a href="#values" class="nav-link scroll">Stories </a>
+              <a href="index.html#values" class="nav-link">Stories</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link scroll">Connect</a>
+              <a href="index.html#contact" class="nav-link">Connect</a>
             </li>
           </ul>
         </div>
@@ -148,7 +149,7 @@
     </nav>
 
     <!-- Hero Section -->
-     
+
     <section class="hero-container">
       <section class="hero-h1">
         <h1>Technology</h1>
@@ -216,13 +217,17 @@
           encryption, and endpoint protection.
         </p>
       </article>
-<article>
+      <article>
         <h3>UI/UX Design & Development</h3>
         <p>
-     We recruit for UI/UX designers and developers who create intuitive, user-friendly interfaces for web and mobile applications. Our candidates specialize in user research, wireframing, prototyping, and usability testing to deliver seamless digital experiences that enhance customer engagement and satisfaction.
+          We recruit for UI/UX designers and developers who create intuitive,
+          user-friendly interfaces for web and mobile applications. Our
+          candidates specialize in user research, wireframing, prototyping, and
+          usability testing to deliver seamless digital experiences that enhance
+          customer engagement and satisfaction.
         </p>
       </article>
-        <article>
+      <article>
         <h3>Software Development</h3>
         <p>
           We help businesses hire software developers for web and mobile
@@ -230,17 +235,23 @@
           user-centric platforms that meet modern business needs.
         </p>
       </article>
-       <article>
+      <article>
         <h3>Backend Development</h3>
         <p>
-          We recruit backend developers skilled in building robust, scalable server-side applications. Our candidates specialize in database management, API development, and server architecture, ensuring high performance, security, and reliability for web and mobile platforms.
+          We recruit backend developers skilled in building robust, scalable
+          server-side applications. Our candidates specialize in database
+          management, API development, and server architecture, ensuring high
+          performance, security, and reliability for web and mobile platforms.
         </p>
       </article>
 
-       <article>
+      <article>
         <h3>DevOps & Continuous Integration/Continuous Deployment (CI/CD)</h3>
         <p>
-          We specialize in recruiting DevOps engineers and CI/CD specialists who streamline software development processes. Our candidates focus on automating workflows, improving deployment pipelines, and ensuring seamless collaboration between development and operations teams.
+          We specialize in recruiting DevOps engineers and CI/CD specialists who
+          streamline software development processes. Our candidates focus on
+          automating workflows, improving deployment pipelines, and ensuring
+          seamless collaboration between development and operations teams.
         </p>
       </article>
       <article>
@@ -313,39 +324,52 @@
             </div>
           </div>
         </div>
-       <div class="row contact__widget">
-                <div class="col-md-4">
-                    <div class="contact__widget_logo">
-                        <img src="images/contact/widget-logo.svg" width="150" height="43" alt="widget-logo">
-                    </div>
-
-
-                </div>
-                <div style="margin-top: 4rem;" class="">
-                    <div class="contact__widget_sitemap">
-                        <h3><i class="fa fa-map-marker"></i>&nbsp;Location</h3>
-                        <ul style="color: white;">
-                            <li>Finaxe Ltd</li>
-                            <li>First Central 200,</li>
-                            <li>2 Lakeside Drive,</li>
-                            <li>NW10 7FQ, London</li>
-                            <li>United Kingdom</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="" style="margin-top: 4rem;">
-                    <div class="contact__widget_address">
-                        <h3>Contact</h3>
-                        <ul>
-                            <li><a href="tel:00442031501269"><i class="fa fa-phone"></i>+44 203 150 1269</a></li>
-                            <li><a href="tel:0097313312331"><i class="fa fa-phone"></i>+973 1331 2331</a></li>
-                            <li><a href="mailto:reach@finaxe.com"><i class="fa fa-envelope"></i>reach@finaxe.com</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
+        <div class="row contact__widget">
+          <div class="col-md-4">
+            <div class="contact__widget_logo">
+              <img
+                src="images/contact/widget-logo.svg"
+                width="150"
+                height="43"
+                alt="widget-logo"
+              />
             </div>
+          </div>
+          <div style="margin-top: 4rem" class="">
+            <div class="contact__widget_sitemap">
+              <h3><i class="fa fa-map-marker"></i>&nbsp;Location</h3>
+              <ul style="color: white">
+                <li>Finaxe Ltd</li>
+                <li>First Central 200,</li>
+                <li>2 Lakeside Drive,</li>
+                <li>NW10 7FQ, London</li>
+                <li>United Kingdom</li>
+              </ul>
+            </div>
+          </div>
+          <div class="" style="margin-top: 4rem">
+            <div class="contact__widget_address">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  <a href="tel:00442031501269"
+                    ><i class="fa fa-phone"></i>+44 203 150 1269</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:0097313312331"
+                    ><i class="fa fa-phone"></i>+973 1331 2331</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:reach@finaxe.com"
+                    ><i class="fa fa-envelope"></i>reach@finaxe.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div class="row contact__footer">
           <div class="col-lg-6">
             <div class="contact__footer_copy">
